@@ -25,3 +25,7 @@ img {
     width: 100px;
     border-radius: 50%;
 }
+
+.update-time {
+    font-size: 8px;
+}
