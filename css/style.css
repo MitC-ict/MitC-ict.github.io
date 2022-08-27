@@ -14,7 +14,9 @@ h1 {
 .profile {
     background-color: lightcyan;
     border-radius: 5px;
-    display: flex;
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 img {
@@ -34,11 +36,17 @@ img {
     display: flex;
     align-items: baseline;
 }
-.prof-content {
-    margin-left: 16px;
+.prof-img {
+    text-align: center;
 }
 
 li {
     font-size: 14px;
     padding: 3px;
+}
+
+@media screen and (min-width:660px) {
+    .profile {
+        display: flex !important;
+    }
 }
