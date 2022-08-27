@@ -1,14 +1,9 @@
 body {
-    font-family: "Helvetica Neue",
-        Arial,
-        "Hiragino Kaku Gothic ProN",
-        "Hiragino Sans",
-        Meiryo,
-        sans-serif;
+    font-family: Noto,Hiragino Sans,Helvetica,Arial,sans-serif;
     }
     
 h1 {
-    font-size: 24px;
+    font-size: 21px;
 }
     
 .container {
@@ -19,13 +14,31 @@ h1 {
 .profile {
     background-color: lightcyan;
     border-radius: 5px;
+    display: flex;
 }
 
 img {
-    width: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
 }
 
-.update-time {
-    font-size: 8px;
+.bi-clock, time {
+    font-size: 12px;
+}
+.bi-check {
+    font-size: 32px;
+    color: #3cb371;
+}
+.prof-title {
+    display: flex;
+    align-items: baseline;
+}
+.prof-content {
+    margin-left: 16px;
+}
+
+li {
+    font-size: 14px;
+    padding: 3px;
 }
